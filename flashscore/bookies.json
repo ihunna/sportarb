@@ -1,0 +1,1767 @@
+{
+    "default": [
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "default",
+            "name": "bet365",
+            "premium_status_id": "2"
+        },
+        {
+            "main_bookmaker_id": "5",
+            "project_id": "2",
+            "geo_ip": "default",
+            "name": "Unibet",
+            "premium_status_id": "2"
+        },
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "default",
+            "name": "1xBet",
+            "premium_status_id": "2"
+        },
+        {
+            "main_bookmaker_id": "15",
+            "project_id": "2",
+            "geo_ip": "default",
+            "name": "William Hill",
+            "premium_status_id": "2"
+        }
+    ],
+    "GB": [
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "GB",
+            "name": "bet365",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "707",
+            "project_id": "2",
+            "geo_ip": "GB",
+            "name": "BetMGM",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "21",
+            "project_id": "2",
+            "geo_ip": "GB",
+            "name": "Betfred",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "26",
+            "project_id": "2",
+            "geo_ip": "GB",
+            "name": "Betway",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "841",
+            "project_id": "2",
+            "geo_ip": "GB",
+            "name": "Midnite",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "895",
+            "project_id": "2",
+            "geo_ip": "GB",
+            "name": "7Bet",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "28",
+            "project_id": "2",
+            "geo_ip": "GB",
+            "name": "Ladbrokes",
+            "premium_status_id": "1"
+        }
+    ],
+    "ES": [
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "ES",
+            "name": "bet365",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "406",
+            "project_id": "2",
+            "geo_ip": "ES",
+            "name": "Sportium.es",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "991",
+            "project_id": "2",
+            "geo_ip": "ES",
+            "name": "Versus.es",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "26",
+            "project_id": "2",
+            "geo_ip": "ES",
+            "name": "Betway",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "15",
+            "project_id": "2",
+            "geo_ip": "ES",
+            "name": "William Hill",
+            "premium_status_id": "2"
+        },
+        {
+            "main_bookmaker_id": "392",
+            "project_id": "2",
+            "geo_ip": "ES",
+            "name": "bwin.es",
+            "premium_status_id": "2"
+        }
+    ],
+    "IT": [
+        {
+            "main_bookmaker_id": "419",
+            "project_id": "2",
+            "geo_ip": "IT",
+            "name": "bet365.it",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "159",
+            "project_id": "2",
+            "geo_ip": "IT",
+            "name": "Sisal",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "188",
+            "project_id": "2",
+            "geo_ip": "IT",
+            "name": "GoldBet",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "322",
+            "project_id": "2",
+            "geo_ip": "IT",
+            "name": "Eurobet.it",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "335",
+            "project_id": "2",
+            "geo_ip": "IT",
+            "name": "Lottomatica",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "773",
+            "project_id": "2",
+            "geo_ip": "IT",
+            "name": "BetssonIT",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "467",
+            "project_id": "2",
+            "geo_ip": "IT",
+            "name": "Planetwin365",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "199",
+            "project_id": "2",
+            "geo_ip": "IT",
+            "name": "SNAI",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "823",
+            "project_id": "2",
+            "geo_ip": "IT",
+            "name": "BetflagIT",
+            "premium_status_id": "1"
+        }
+    ],
+    "FR": [
+        {
+            "main_bookmaker_id": "141",
+            "project_id": "2",
+            "geo_ip": "FR",
+            "name": "Betclic.fr",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "160",
+            "project_id": "2",
+            "geo_ip": "FR",
+            "name": "Unibet.fr",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "264",
+            "project_id": "2",
+            "geo_ip": "FR",
+            "name": "Winamax",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "484",
+            "project_id": "2",
+            "geo_ip": "FR",
+            "name": "ParionsSport",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "905",
+            "project_id": "2",
+            "geo_ip": "FR",
+            "name": "Betsson.fr",
+            "premium_status_id": "1"
+        }
+    ],
+    "AU": [
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "AU",
+            "name": "bet365",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "628",
+            "project_id": "2",
+            "geo_ip": "AU",
+            "name": "Unibetau",
+            "premium_status_id": "2"
+        }
+    ],
+    "RU": [
+        {
+            "main_bookmaker_id": "454",
+            "project_id": "2",
+            "geo_ip": "RU",
+            "name": "Winline.ru",
+            "premium_status_id": "1"
+        }
+    ],
+    "KR": [
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "KR",
+            "name": "1xBet",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "581",
+            "project_id": "2",
+            "geo_ip": "KR",
+            "name": "10x10bet",
+            "premium_status_id": "1"
+        }
+    ],
+    "CZ": [
+        {
+            "main_bookmaker_id": "49",
+            "project_id": "2",
+            "geo_ip": "CZ",
+            "name": "Tipsport.cz",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "46",
+            "project_id": "2",
+            "geo_ip": "CZ",
+            "name": "iFortuna.cz",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "657",
+            "project_id": "2",
+            "geo_ip": "CZ",
+            "name": "Betano.cz",
+            "premium_status_id": "1"
+        }
+    ],
+    "DK": [
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "DK",
+            "name": "bet365",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "653",
+            "project_id": "2",
+            "geo_ip": "DK",
+            "name": "Expektdk",
+            "premium_status_id": "1"
+        }
+    ],
+    "US": [
+        {
+            "main_bookmaker_id": "851",
+            "project_id": "2",
+            "geo_ip": "US",
+            "name": "BetMGM.us",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "549",
+            "project_id": "2",
+            "geo_ip": "US",
+            "name": "bet365.us",
+            "premium_status_id": "2"
+        }
+    ],
+    "RO": [
+        {
+            "main_bookmaker_id": "623",
+            "project_id": "2",
+            "geo_ip": "RO",
+            "name": "Unibetro",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "592",
+            "project_id": "2",
+            "geo_ip": "RO",
+            "name": "Superbet.ro",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "516",
+            "project_id": "2",
+            "geo_ip": "RO",
+            "name": "Betano.ro",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "648",
+            "project_id": "2",
+            "geo_ip": "RO",
+            "name": "Mozzartbetro",
+            "premium_status_id": "1"
+        }
+    ],
+    "TR": [
+        {
+            "main_bookmaker_id": "741",
+            "project_id": "2",
+            "geo_ip": "TR",
+            "name": "Nesine",
+            "premium_status_id": "2"
+        }
+    ],
+    "PL": [
+        {
+            "main_bookmaker_id": "163",
+            "project_id": "2",
+            "geo_ip": "PL",
+            "name": "eFortuna.pl",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "165",
+            "project_id": "2",
+            "geo_ip": "PL",
+            "name": "STS.pl",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "502",
+            "project_id": "2",
+            "geo_ip": "PL",
+            "name": "LV BET",
+            "premium_status_id": "2"
+        },
+        {
+            "main_bookmaker_id": "539",
+            "project_id": "2",
+            "geo_ip": "PL",
+            "name": "Betclic.pl",
+            "premium_status_id": "2"
+        }
+    ],
+    "TN": [
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "TN",
+            "name": "bet365",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "TN",
+            "name": "1xBet",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "997",
+            "project_id": "2",
+            "geo_ip": "TN",
+            "name": "Stake.com",
+            "premium_status_id": "1"
+        }
+    ],
+    "KE": [
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "KE",
+            "name": "1xBet",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "646",
+            "project_id": "2",
+            "geo_ip": "KE",
+            "name": "Mozzartbetke",
+            "premium_status_id": "1"
+        }
+    ],
+    "ZA": [
+        {
+            "main_bookmaker_id": "38",
+            "project_id": "2",
+            "geo_ip": "ZA",
+            "name": "Sportingbet",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "533",
+            "project_id": "2",
+            "geo_ip": "ZA",
+            "name": "Betway South Africa",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "781",
+            "project_id": "2",
+            "geo_ip": "ZA",
+            "name": "Easybet",
+            "premium_status_id": "1"
+        }
+    ],
+    "AZ": [
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "AZ",
+            "name": "1xBet",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "15",
+            "project_id": "2",
+            "geo_ip": "AZ",
+            "name": "William Hill",
+            "premium_status_id": "2"
+        }
+    ],
+    "GH": [
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "GH",
+            "name": "1xBet",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "533",
+            "project_id": "2",
+            "geo_ip": "GH",
+            "name": "Betway South Africa",
+            "premium_status_id": "1"
+        }
+    ],
+    "JP": [
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "JP",
+            "name": "1xBet",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "15",
+            "project_id": "2",
+            "geo_ip": "JP",
+            "name": "William Hill",
+            "premium_status_id": "2"
+        }
+    ],
+    "LT": [
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "LT",
+            "name": "bet365",
+            "premium_status_id": "1"
+        }
+    ],
+    "TH": [
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "TH",
+            "name": "1xBet",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "TH",
+            "name": "bet365",
+            "premium_status_id": "2"
+        }
+    ],
+    "UG": [
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "UG",
+            "name": "1xBet",
+            "premium_status_id": "1"
+        }
+    ],
+    "VN": [
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "VN",
+            "name": "bet365",
+            "premium_status_id": "2"
+        }
+    ],
+    "NG": [
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "NG",
+            "name": "1xBet",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "662",
+            "project_id": "2",
+            "geo_ip": "NG",
+            "name": "Betano.ng",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "925",
+            "project_id": "2",
+            "geo_ip": "NG",
+            "name": "Paripesa",
+            "premium_status_id": "1"
+        }
+    ],
+    "EE": [
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "EE",
+            "name": "bet365",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "627",
+            "project_id": "2",
+            "geo_ip": "EE",
+            "name": "Unibetee",
+            "premium_status_id": "2"
+        }
+    ],
+    "ID": [],
+    "NL": [
+        {
+            "main_bookmaker_id": "871",
+            "project_id": "2",
+            "geo_ip": "NL",
+            "name": "711",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "621",
+            "project_id": "2",
+            "geo_ip": "NL",
+            "name": "Unibetnl",
+            "premium_status_id": "1"
+        }
+    ],
+    "BE": [
+        {
+            "main_bookmaker_id": "619",
+            "project_id": "2",
+            "geo_ip": "BE",
+            "name": "Unibetbe",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "2",
+            "project_id": "2",
+            "geo_ip": "BE",
+            "name": "bwin",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "642",
+            "project_id": "2",
+            "geo_ip": "BE",
+            "name": "Golden Palace",
+            "premium_status_id": "1"
+        }
+    ],
+    "BG": [
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "BG",
+            "name": "bet365",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "663",
+            "project_id": "2",
+            "geo_ip": "BG",
+            "name": "Betano.bg",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "751",
+            "project_id": "2",
+            "geo_ip": "BG",
+            "name": "Winbet",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "2",
+            "project_id": "2",
+            "geo_ip": "BG",
+            "name": "bwin",
+            "premium_status_id": "2"
+        }
+    ],
+    "GR": [
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "GR",
+            "name": "bet365",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "409",
+            "project_id": "2",
+            "geo_ip": "GR",
+            "name": "Stoiximan.gr",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "961",
+            "project_id": "2",
+            "geo_ip": "GR",
+            "name": "PameStoixima",
+            "premium_status_id": "1"
+        }
+    ],
+    "KZ": [
+        {
+            "main_bookmaker_id": "471",
+            "project_id": "2",
+            "geo_ip": "KZ",
+            "name": "1xBet.kz",
+            "premium_status_id": "2"
+        }
+    ],
+    "PT": [
+        {
+            "main_bookmaker_id": "545",
+            "project_id": "2",
+            "geo_ip": "PT",
+            "name": "Betano.pt",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "595",
+            "project_id": "2",
+            "geo_ip": "PT",
+            "name": "Solverde.pt",
+            "premium_status_id": "1"
+        }
+    ],
+    "SK": [
+        {
+            "main_bookmaker_id": "411",
+            "project_id": "2",
+            "geo_ip": "SK",
+            "name": "Tipsport.sk",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "23",
+            "project_id": "2",
+            "geo_ip": "SK",
+            "name": "DOXXbet",
+            "premium_status_id": "1"
+        }
+    ],
+    "UY": [
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "UY",
+            "name": "bet365",
+            "premium_status_id": "1"
+        }
+    ],
+    "GE": [
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "GE",
+            "name": "bet365",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "GE",
+            "name": "1xBet",
+            "premium_status_id": "1"
+        }
+    ],
+    "MX": [
+        {
+            "main_bookmaker_id": "631",
+            "project_id": "2",
+            "geo_ip": "MX",
+            "name": "Calientemx",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "MX",
+            "name": "bet365",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "MX",
+            "name": "1xBet",
+            "premium_status_id": "2"
+        }
+    ],
+    "PE": [
+        {
+            "main_bookmaker_id": "43",
+            "project_id": "2",
+            "geo_ip": "PE",
+            "name": "Betsson",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "PE",
+            "name": "bet365",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "660",
+            "project_id": "2",
+            "geo_ip": "PE",
+            "name": "Betano.pe",
+            "premium_status_id": "1"
+        }
+    ],
+    "LV": [
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "LV",
+            "name": "bet365",
+            "premium_status_id": "1"
+        }
+    ],
+    "CY": [
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "CY",
+            "name": "bet365",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "656",
+            "project_id": "2",
+            "geo_ip": "CY",
+            "name": "Stoiximan.cy",
+            "premium_status_id": "1"
+        }
+    ],
+    "SE": [
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "SE",
+            "name": "bet365",
+            "premium_status_id": "1"
+        }
+    ],
+    "NO": [
+        {
+            "main_bookmaker_id": "899",
+            "project_id": "2",
+            "geo_ip": "NO",
+            "name": "Cloudbet",
+            "premium_status_id": "1"
+        }
+    ],
+    "AL": [
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "AL",
+            "name": "bet365",
+            "premium_status_id": "2"
+        }
+    ],
+    "ZM": [
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "ZM",
+            "name": "1xBet",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "533",
+            "project_id": "2",
+            "geo_ip": "ZM",
+            "name": "Betway South Africa",
+            "premium_status_id": "1"
+        }
+    ],
+    "TZ": [
+        {
+            "main_bookmaker_id": "533",
+            "project_id": "2",
+            "geo_ip": "TZ",
+            "name": "Betway South Africa",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "TZ",
+            "name": "1xBet",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "919",
+            "project_id": "2",
+            "geo_ip": "TZ",
+            "name": "PremierBetMW",
+            "premium_status_id": "1"
+        }
+    ],
+    "FI": [
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "FI",
+            "name": "1xBet",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "899",
+            "project_id": "2",
+            "geo_ip": "FI",
+            "name": "Cloudbet",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "FI",
+            "name": "bet365",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "5",
+            "project_id": "2",
+            "geo_ip": "FI",
+            "name": "Unibet",
+            "premium_status_id": "2"
+        }
+    ],
+    "US:USNJ": [
+        {
+            "main_bookmaker_id": "549",
+            "project_id": "2",
+            "geo_ip": "US:USNJ",
+            "name": "bet365.us",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "851",
+            "project_id": "2",
+            "geo_ip": "US:USNJ",
+            "name": "BetMGM.us",
+            "premium_status_id": "1"
+        }
+    ],
+    "IN": [
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "IN",
+            "name": "1xBet",
+            "premium_status_id": "1"
+        }
+    ],
+    "CO": [
+        {
+            "main_bookmaker_id": "523",
+            "project_id": "2",
+            "geo_ip": "CO",
+            "name": "Wplay.co",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "562",
+            "project_id": "2",
+            "geo_ip": "CO",
+            "name": "Yajuego",
+            "premium_status_id": "2"
+        }
+    ],
+    "PH": [
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "PH",
+            "name": "1xBet",
+            "premium_status_id": "1"
+        }
+    ],
+    "DE": [
+        {
+            "main_bookmaker_id": "645",
+            "project_id": "2",
+            "geo_ip": "DE",
+            "name": "bet-at-home.de",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "2",
+            "project_id": "2",
+            "geo_ip": "DE",
+            "name": "bwin",
+            "premium_status_id": "2"
+        }
+    ],
+    "CA": [
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "CA",
+            "name": "bet365",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "997",
+            "project_id": "2",
+            "geo_ip": "CA",
+            "name": "Stake.com",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "899",
+            "project_id": "2",
+            "geo_ip": "CA",
+            "name": "Cloudbet",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "643",
+            "project_id": "2",
+            "geo_ip": "CA",
+            "name": "Batery",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "CA",
+            "name": "1xBet",
+            "premium_status_id": "2"
+        }
+    ],
+    "MT": [
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "MT",
+            "name": "bet365",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "15",
+            "project_id": "2",
+            "geo_ip": "MT",
+            "name": "William Hill",
+            "premium_status_id": "1"
+        }
+    ],
+    "ET": [
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "ET",
+            "name": "1xBet",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "957",
+            "project_id": "2",
+            "geo_ip": "ET",
+            "name": "Elephantbet.et",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "919",
+            "project_id": "2",
+            "geo_ip": "ET",
+            "name": "PremierBetMW",
+            "premium_status_id": "1"
+        }
+    ],
+    "MZ": [
+        {
+            "main_bookmaker_id": "589",
+            "project_id": "2",
+            "geo_ip": "MZ",
+            "name": "Betway Africa",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "915",
+            "project_id": "2",
+            "geo_ip": "MZ",
+            "name": "PremierBetMZ",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "MZ",
+            "name": "1xBet",
+            "premium_status_id": "2"
+        }
+    ],
+    "HR": [
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "HR",
+            "name": "bet365",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "5",
+            "project_id": "2",
+            "geo_ip": "HR",
+            "name": "Unibet",
+            "premium_status_id": "2"
+        }
+    ],
+    "RS": [
+        {
+            "main_bookmaker_id": "647",
+            "project_id": "2",
+            "geo_ip": "RS",
+            "name": "Mozzartbetrs",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "1001",
+            "project_id": "2",
+            "geo_ip": "RS",
+            "name": "1xBet.rs",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "1007",
+            "project_id": "2",
+            "geo_ip": "RS",
+            "name": "SoccerBet",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "RS",
+            "name": "bet365",
+            "premium_status_id": "1"
+        }
+    ],
+    "CA:CAON": [
+        {
+            "main_bookmaker_id": "665",
+            "project_id": "2",
+            "geo_ip": "CA:CAON",
+            "name": "Betano.ca (Ontario)",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "26",
+            "project_id": "2",
+            "geo_ip": "CA:CAON",
+            "name": "Betway",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "27",
+            "project_id": "2",
+            "geo_ip": "CA:CAON",
+            "name": "888sport",
+            "premium_status_id": "2"
+        }
+    ],
+    "SG": [
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "SG",
+            "name": "1xBet",
+            "premium_status_id": "1"
+        }
+    ],
+    "CM": [
+        {
+            "main_bookmaker_id": "921",
+            "project_id": "2",
+            "geo_ip": "CM",
+            "name": "PremierBetCM",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "CM",
+            "name": "1xBet",
+            "premium_status_id": "1"
+        }
+    ],
+    "SI": [
+        {
+            "main_bookmaker_id": "3",
+            "project_id": "2",
+            "geo_ip": "SI",
+            "name": "bet-at-home",
+            "premium_status_id": "1"
+        }
+    ],
+    "MY": [
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "MY",
+            "name": "1xBet",
+            "premium_status_id": "1"
+        }
+    ],
+    "AE": [],
+    "ME": [
+        {
+            "main_bookmaker_id": "1007",
+            "project_id": "2",
+            "geo_ip": "ME",
+            "name": "SoccerBet",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "ME",
+            "name": "bet365",
+            "premium_status_id": "1"
+        }
+    ],
+    "BR": [
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "BR",
+            "name": "bet365",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "574",
+            "project_id": "2",
+            "geo_ip": "BR",
+            "name": "Betano.br",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "833",
+            "project_id": "2",
+            "geo_ip": "BR",
+            "name": "Estrelabet",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "863",
+            "project_id": "2",
+            "geo_ip": "BR",
+            "name": "BetEsporte",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "933",
+            "project_id": "2",
+            "geo_ip": "BR",
+            "name": "Superbet.br",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "959",
+            "project_id": "2",
+            "geo_ip": "BR",
+            "name": "Esportivabet",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "995",
+            "project_id": "2",
+            "geo_ip": "BR",
+            "name": "Betnacional",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "999",
+            "project_id": "2",
+            "geo_ip": "BR",
+            "name": "BR4Bet",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "1023",
+            "project_id": "2",
+            "geo_ip": "BR",
+            "name": "Alfabet",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "943",
+            "project_id": "2",
+            "geo_ip": "BR",
+            "name": "Betboom.br",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "1063",
+            "project_id": "2",
+            "geo_ip": "BR",
+            "name": "Multibet.br",
+            "premium_status_id": "1"
+        }
+    ],
+    "CH": [
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "CH",
+            "name": "bet365",
+            "premium_status_id": "1"
+        }
+    ],
+    "MW": [
+        {
+            "main_bookmaker_id": "919",
+            "project_id": "2",
+            "geo_ip": "MW",
+            "name": "PremierBetMW",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "533",
+            "project_id": "2",
+            "geo_ip": "MW",
+            "name": "Betway South Africa",
+            "premium_status_id": "1"
+        }
+    ],
+    "HU": [],
+    "US:USIA": [
+        {
+            "main_bookmaker_id": "549",
+            "project_id": "2",
+            "geo_ip": "US:USIA",
+            "name": "bet365.us",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "851",
+            "project_id": "2",
+            "geo_ip": "US:USIA",
+            "name": "BetMGM.us",
+            "premium_status_id": "1"
+        }
+    ],
+    "US:USKY": [
+        {
+            "main_bookmaker_id": "549",
+            "project_id": "2",
+            "geo_ip": "US:USKY",
+            "name": "bet365.us",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "851",
+            "project_id": "2",
+            "geo_ip": "US:USKY",
+            "name": "BetMGM.us",
+            "premium_status_id": "1"
+        }
+    ],
+    "US:USOH": [
+        {
+            "main_bookmaker_id": "549",
+            "project_id": "2",
+            "geo_ip": "US:USOH",
+            "name": "bet365.us",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "851",
+            "project_id": "2",
+            "geo_ip": "US:USOH",
+            "name": "BetMGM.us",
+            "premium_status_id": "1"
+        }
+    ],
+    "US:USNC": [
+        {
+            "main_bookmaker_id": "549",
+            "project_id": "2",
+            "geo_ip": "US:USNC",
+            "name": "bet365.us",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "851",
+            "project_id": "2",
+            "geo_ip": "US:USNC",
+            "name": "BetMGM.us",
+            "premium_status_id": "1"
+        }
+    ],
+    "IE": [
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "IE",
+            "name": "bet365",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "1005",
+            "project_id": "2",
+            "geo_ip": "IE",
+            "name": "1xBet.ir",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "841",
+            "project_id": "2",
+            "geo_ip": "IE",
+            "name": "Midnite",
+            "premium_status_id": "1"
+        }
+    ],
+    "US:USDC": [
+        {
+            "main_bookmaker_id": "851",
+            "project_id": "2",
+            "geo_ip": "US:USDC",
+            "name": "BetMGM.us",
+            "premium_status_id": "1"
+        }
+    ],
+    "US:USIL": [
+        {
+            "main_bookmaker_id": "549",
+            "project_id": "2",
+            "geo_ip": "US:USIL",
+            "name": "bet365.us",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "851",
+            "project_id": "2",
+            "geo_ip": "US:USIL",
+            "name": "BetMGM.us",
+            "premium_status_id": "1"
+        }
+    ],
+    "US:USNV": [
+        {
+            "main_bookmaker_id": "851",
+            "project_id": "2",
+            "geo_ip": "US:USNV",
+            "name": "BetMGM.us",
+            "premium_status_id": "1"
+        }
+    ],
+    "US:USNY": [
+        {
+            "main_bookmaker_id": "851",
+            "project_id": "2",
+            "geo_ip": "US:USNY",
+            "name": "BetMGM.us",
+            "premium_status_id": "1"
+        }
+    ],
+    "US:USVT": [
+        {
+            "main_bookmaker_id": "851",
+            "project_id": "2",
+            "geo_ip": "US:USVT",
+            "name": "BetMGM.us",
+            "premium_status_id": "1"
+        }
+    ],
+    "US:USWY": [
+        {
+            "main_bookmaker_id": "851",
+            "project_id": "2",
+            "geo_ip": "US:USWY",
+            "name": "BetMGM.us",
+            "premium_status_id": "1"
+        }
+    ],
+    "US:USKS": [
+        {
+            "main_bookmaker_id": "549",
+            "project_id": "2",
+            "geo_ip": "US:USKS",
+            "name": "bet365.us",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "851",
+            "project_id": "2",
+            "geo_ip": "US:USKS",
+            "name": "BetMGM.us",
+            "premium_status_id": "1"
+        }
+    ],
+    "US:USMS": [
+        {
+            "main_bookmaker_id": "851",
+            "project_id": "2",
+            "geo_ip": "US:USMS",
+            "name": "BetMGM.us",
+            "premium_status_id": "1"
+        }
+    ],
+    "US:USTN": [
+        {
+            "main_bookmaker_id": "549",
+            "project_id": "2",
+            "geo_ip": "US:USTN",
+            "name": "bet365.us",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "851",
+            "project_id": "2",
+            "geo_ip": "US:USTN",
+            "name": "BetMGM.us",
+            "premium_status_id": "1"
+        }
+    ],
+    "PG": [],
+    "ZW": [
+        {
+            "main_bookmaker_id": "889",
+            "project_id": "2",
+            "geo_ip": "ZW",
+            "name": "PremierBetZW",
+            "premium_status_id": "1"
+        }
+    ],
+    "TG": [],
+    "AO": [
+        {
+            "main_bookmaker_id": "913",
+            "project_id": "2",
+            "geo_ip": "AO",
+            "name": "PremierBetAO",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "875",
+            "project_id": "2",
+            "geo_ip": "AO",
+            "name": "Elephantbet.ao",
+            "premium_status_id": "1"
+        }
+    ],
+    "GN": [
+        {
+            "main_bookmaker_id": "917",
+            "project_id": "2",
+            "geo_ip": "GN",
+            "name": "GuineeGamesGN",
+            "premium_status_id": "1"
+        }
+    ],
+    "AT": [
+        {
+            "main_bookmaker_id": "825",
+            "project_id": "2",
+            "geo_ip": "AT",
+            "name": "Admiralat",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "AT",
+            "name": "bet365",
+            "premium_status_id": "1"
+        }
+    ],
+    "MN": [
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "MN",
+            "name": "1xBet",
+            "premium_status_id": "1"
+        }
+    ],
+    "LA": [
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "LA",
+            "name": "1xBet",
+            "premium_status_id": "1"
+        }
+    ],
+    "TW": [
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "TW",
+            "name": "1xBet",
+            "premium_status_id": "1"
+        }
+    ],
+    "LK": [
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "LK",
+            "name": "1xBet",
+            "premium_status_id": "1"
+        }
+    ],
+    "PK": [
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "PK",
+            "name": "1xBet",
+            "premium_status_id": "1"
+        }
+    ],
+    "BN": [
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "BN",
+            "name": "1xBet",
+            "premium_status_id": "1"
+        }
+    ],
+    "NP": [
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "NP",
+            "name": "1xBet",
+            "premium_status_id": "1"
+        }
+    ],
+    "BD": [
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "BD",
+            "name": "1xBet",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "899",
+            "project_id": "2",
+            "geo_ip": "BD",
+            "name": "Cloudbet",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "147",
+            "project_id": "2",
+            "geo_ip": "BD",
+            "name": "Dafabet",
+            "premium_status_id": "1"
+        }
+    ],
+    "CI": [],
+    "SN": [
+        {
+            "main_bookmaker_id": "919",
+            "project_id": "2",
+            "geo_ip": "SN",
+            "name": "PremierBetMW",
+            "premium_status_id": "1"
+        }
+    ],
+    "LR": [
+        {
+            "main_bookmaker_id": "919",
+            "project_id": "2",
+            "geo_ip": "LR",
+            "name": "PremierBetMW",
+            "premium_status_id": "1"
+        }
+    ],
+    "CG": [
+        {
+            "main_bookmaker_id": "919",
+            "project_id": "2",
+            "geo_ip": "CG",
+            "name": "PremierBetMW",
+            "premium_status_id": "1"
+        }
+    ],
+    "ML": [
+        {
+            "main_bookmaker_id": "919",
+            "project_id": "2",
+            "geo_ip": "ML",
+            "name": "PremierBetMW",
+            "premium_status_id": "1"
+        }
+    ],
+    "CD": [
+        {
+            "main_bookmaker_id": "919",
+            "project_id": "2",
+            "geo_ip": "CD",
+            "name": "PremierBetMW",
+            "premium_status_id": "1"
+        }
+    ],
+    "TD": [
+        {
+            "main_bookmaker_id": "919",
+            "project_id": "2",
+            "geo_ip": "TD",
+            "name": "PremierBetMW",
+            "premium_status_id": "1"
+        }
+    ],
+    "SL": [],
+    "MA": [
+        {
+            "main_bookmaker_id": "997",
+            "project_id": "2",
+            "geo_ip": "MA",
+            "name": "Stake.com",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "417",
+            "project_id": "2",
+            "geo_ip": "MA",
+            "name": "1xBet",
+            "premium_status_id": "2"
+        },
+        {
+            "main_bookmaker_id": "16",
+            "project_id": "2",
+            "geo_ip": "MA",
+            "name": "bet365",
+            "premium_status_id": "2"
+        }
+    ],
+    "BA": [
+        {
+            "main_bookmaker_id": "1007",
+            "project_id": "2",
+            "geo_ip": "BA",
+            "name": "SoccerBet",
+            "premium_status_id": "1"
+        }
+    ],
+    "US:USIN": [
+        {
+            "main_bookmaker_id": "549",
+            "project_id": "2",
+            "geo_ip": "US:USIN",
+            "name": "bet365.us",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "851",
+            "project_id": "2",
+            "geo_ip": "US:USIN",
+            "name": "BetMGM.us",
+            "premium_status_id": "1"
+        }
+    ],
+    "DO": [
+        {
+            "main_bookmaker_id": "1025",
+            "project_id": "2",
+            "geo_ip": "DO",
+            "name": "Superbets",
+            "premium_status_id": "1"
+        }
+    ],
+    "US:USVA": [
+        {
+            "main_bookmaker_id": "549",
+            "project_id": "2",
+            "geo_ip": "US:USVA",
+            "name": "bet365.us",
+            "premium_status_id": "1"
+        },
+        {
+            "main_bookmaker_id": "851",
+            "project_id": "2",
+            "geo_ip": "US:USVA",
+            "name": "BetMGM.us",
+            "premium_status_id": "1"
+        }
+    ]
+}
