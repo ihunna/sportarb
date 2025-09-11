@@ -1,16 +1,20 @@
 import sys,os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-import traceback
+
 from collections import defaultdict
-from configs import *
+from configs import traceback, time, json, sys
 from utils import Utils
 from flashscore.feeds import FEEDS
 from flashscore.parser import PARSER
+from telegram.messanger import MESSANGER
 
 class CALCULATOR:
-    def __init__(self):
+    def __init__(self, capital=0, min_profit_percentage=0):
         self.feeds = FEEDS()
         self.parser = PARSER
+        self.messanger = MESSANGER()
+        self.balance = capital
+        self.min_profit_percentage = min_profit_percentage
 
     def fetch_and_parse_tennis_data(self):
         try:
@@ -53,11 +57,12 @@ class CALCULATOR:
         except Exception as error:
             return False, f'Error extracting full time odds: {error}'
 
-    def calculate_arbitrage(self, odds_data):
+    def calculate_arbitrage(self, odds_data, capital):
         """
         Calculates arbitrage opportunities for a match's odds.
         Args:
             odds_data: List of dicts with bookmaker odds (e.g., [{'BI': '417', 'XA': 1.8, 'XB': 2.0}, ...]).
+            capital: Investment capital for simulation.
         Returns: (has_arb: bool, arb_details: dict or None)
         """
         try:
@@ -91,19 +96,25 @@ class CALCULATOR:
             if total_implied_prob >= 1 or total_implied_prob == 0:
                 return False, None
             
-            # Calculate stakes for arbitrage (assuming total stake = 1)
-            stake_home = implied_prob_home / total_implied_prob
-            stake_away = implied_prob_away / total_implied_prob
-            profit = (stake_home * best_home_odds - 1) * 100  # Profit percentage
+            # Calculate stakes for arbitrage
+            stake_home = (implied_prob_home / total_implied_prob) * capital
+            stake_away = (implied_prob_away / total_implied_prob) * capital
+            profit_amount = stake_home * best_home_odds - capital  # Profit if home wins (same for away)
+            profit_percentage = (profit_amount / capital) * 100
+            
+            # Check if profit percentage meets minimum threshold
+            if profit_percentage < self.min_profit_percentage:
+                return False, f'Profit percentage {profit_percentage:.2f}% below minimum {self.min_profit_percentage}%'
             
             arb_details = {
                 'home_odds': best_home_odds,
                 'away_odds': best_away_odds,
                 'home_bookmaker_id': home_bookmaker,
                 'away_bookmaker_id': away_bookmaker,
-                'stake_home': round(stake_home, 4),
-                'stake_away': round(stake_away, 4),
-                'profit_percentage': round(profit, 2),
+                'stake_home': round(stake_home, 2),
+                'stake_away': round(stake_away, 2),
+                'profit_amount': round(profit_amount, 2),
+                'profit_percentage': round(profit_percentage, 2),
                 'total_implied_prob': round(total_implied_prob, 4)
             }
             return True, arb_details
@@ -118,6 +129,7 @@ class CALCULATOR:
         Returns: dict with tournaments, matches, odds, and arbitrage details.
         """
         try:
+            Utils.write_log("------------------------Tennis arb operation started------------------------")
             # Fetch and parse tennis events
             success, data = self.fetch_and_parse_tennis_data()
             if not success:
@@ -128,6 +140,8 @@ class CALCULATOR:
                 'metadata': data.get('metadata', {}),
                 'arbitrage_opportunities': []
             }
+            iteration_profit = 0
+            iteration_arbs = 0
             
             # Process each tournament and match
             for tournament_id, tournament in data.get('tournaments', {}).items():
@@ -213,7 +227,7 @@ class CALCULATOR:
                             bookie_map[bookmaker_id] = b
 
                     # Calculate arbitrage with merged odds
-                    has_arb, arb_details = self.calculate_arbitrage(merged_odds)
+                    has_arb, arb_details = self.calculate_arbitrage(merged_odds, self.balance)
 
                     match_data = {
                         'match_id': match_id,
@@ -240,6 +254,9 @@ class CALCULATOR:
                             'away_player': match['away_player']['name'],
                             'arbitrage_details': arb_details
                         })
+                        # Simulate profit and update iteration counters
+                        iteration_profit += arb_details['profit_amount']
+                        iteration_arbs += 1
 
                     tournament_data['matches'].append(match_data)
                     if has_arb:
@@ -251,13 +268,23 @@ class CALCULATOR:
                                 Home: {match_data["home_player"]} @ {arb_details["home_odds"]} (Bookmaker: {arb_details["home_bookmaker"].get("bookmaker", {}).get("name", "Unknown")})
                                 Away: {match_data["away_player"]} @ {arb_details["away_odds"]} (Bookmaker: {arb_details["away_bookmaker"].get("bookmaker", {}).get("name", "Unknown")})
                                 Stakes: Home {arb_details["stake_home"]}, Away {arb_details["stake_away"]}
+                                Profit Amount: {arb_details["profit_amount"]}
                                 Profit: {arb_details["profit_percentage"]}%
                                 /* --------------------------------------------------------------- */
                             """
                         )
+                        success,msg = self.messanger.report_arb(match_data,arb_details)
+                        if not success:raise Exception(msg)
+
+                    elif isinstance(arb_details, str) and 'below minimum' in arb_details:
+                        Utils.write_log(f"Skipped arb for {match_id}: {arb_details}")
                 
                 result['tournaments'][tournament_id] = tournament_data
             
+            # Update balance with iteration profit
+            self.balance += iteration_profit
+            Utils.write_log(f"Iteration Summary: {iteration_arbs} arbs found, Total Profit: {iteration_profit:.2f}, New Balance: {self.balance:.2f}")
+            Utils.write_log("------------------------Tennis arb operation done------------------------")
             return True, result
         
         except Exception as error:
@@ -266,15 +293,22 @@ class CALCULATOR:
 
 # Example usage
 if __name__ == "__main__":
-    calc = CALCULATOR()
-    while True:
-        wait_time = random.uniform(1800, 3600)
-        success, result = calc.get_tennis_arbitrage_opportunities(country='NG')
-        if success:
-            with open('arbs.json', 'w', encoding='utf-8') as f:
-                json.dump(result, f, ensure_ascii=False, indent=4)
-        else:
-            Utils.write_log(result)
+    if len(sys.argv) != 4:
+        print("Usage: python calculator.py <capital> <wait_time> <min_profit_percentage>")
+        sys.exit(1)
+    
+    try:
+        capital = float(sys.argv[1])
+        wait_time = int(sys.argv[2])
+        min_profit_percentage = float(sys.argv[3])
+    except ValueError:
+        print("Error: Capital, wait time, and minimum profit percentage must be numbers")
+        sys.exit(1)
 
-        Utils.write_log(f'Sleeping for {wait_time // 60} minutes')
+    calc = CALCULATOR(capital=capital, min_profit_percentage=min_profit_percentage)
+    while True:
+        success, result = calc.get_tennis_arbitrage_opportunities(country='NG')
+        Utils.write_log(result)
+
+        Utils.write_log(f'Sleeping for {wait_time} seconds')
         time.sleep(wait_time)

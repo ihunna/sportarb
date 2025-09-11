@@ -1,13 +1,10 @@
 from utils import Utils
-from configs import *
-
-import random
-import string
+from configs import string, random, requests
 
 class FEEDS:
     def __init__(self):
         self.proxies = Utils.load_proxies()
-        self.headers =headers = {
+        self.headers = {
             'accept': '*/*',
             'accept-language': 'en-US,en;q=0.9',
             'origin': 'https://www.flashscore.com',
@@ -39,6 +36,7 @@ class FEEDS:
 
     def get_sport_events(self,sport, with_odds=False):
         try:
+            Utils.write_log(f"Fetching events for {sport}")
             sport_alt_id = None
 
             if with_odds:
@@ -63,6 +61,7 @@ class FEEDS:
 
     def get_odds_data(self, event_id, project_id='2', geo_ip_code='NG', geo_ip_subdivision_code='NGLA'):
         try:
+            Utils.write_log(f"Fetching events for {event_id}")
             params = {
                 '_hash': 'oce',
                 'eventId': event_id,
